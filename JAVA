@@ -1,0 +1,30 @@
+import java.util.*;
+
+class p3{
+    Run|Debug
+    public statics  void main(string[] arg) {
+        String s1,s2;
+        Scanner sc = new Snner(sytem.in);
+        s1 = sc.nextline()
+        s2 = sc.nextline()
+        if(s1.length()!=s2.length())
+        {
+        system.out.printin("Not Anagram");
+        return;
+        }
+        char arr1[] = s1.tocharArray();
+        char arr2[] = s2.tocharArray();
+    
+        Arrays.sort(arr1);
+        Arrays.sort(arr2);
+    
+        s1 = new String(arr1);
+        s2 = new String(arr2);
+   
+        if(s1.equals(s2)){
+        system.out.printin("Anagram");
+        else
+        system.out.printin("Not Anagram");
+    
+   }  
+ }   
